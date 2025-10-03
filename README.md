@@ -1,2 +1,6 @@
 # theobutters.github.io
-My Portfolio
+
+My newer portfolio.
+
+Created to showcase my public works.
+
