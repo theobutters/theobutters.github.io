@@ -1,8 +1,5 @@
 ---
-
 layout: main
-
-title: Theo Butters
-
+title: Home
 ---
 

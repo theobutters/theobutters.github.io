@@ -59,6 +59,36 @@
             letter-spacing: 0.1em;
         }
 
+        .project {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #111;
+            border: 1px solid #222;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .project:hover {
+            border-color: #666;
+            transform: translateX(0.5rem);
+        }
+
+        .project h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .project p {
+            font-size: 0.9rem;
+            color: #999;
+            font-weight: 300;
+        }
+
         .skills {
             display: flex;
             flex-wrap: wrap;
@@ -125,6 +155,22 @@
         </section>
 
         <section>
+            <h2>Projects</h2>
+            <a href="/barry" class="project">
+                <h3>Barry</h3>
+                <p>A Discord games & chat bot with an integrated LLM.</p>
+            </a>
+            <a href="/blender" class="project">
+                <h3>Blender Designs</h3>
+                <p>Completely self taught, mostly random stuff.</p>
+            </a>
+            <a href="/figma" class="project">
+                <h3>Figma Designs</h3>
+                <p>Again, mostly random stuff.</p>
+            </a>
+        </section>
+
+        <section>
             <h2>Skills</h2>
             <div class="skills">
                 <span class="skill">python</span>
@@ -143,6 +189,7 @@
                 <a href="mailto:theobutters12@gmail.com">Email 2</a>
                 <a href="https://github.com/theobutters" target="_blank">GitHub</a>
                 <a href="https://linkedin.com/in/theo-butters/" target="_blank">LinkedIn</a>
+		<p style="color:#888">@figure.one on Discord</p>
             </div>
         </section>
     </div>
