@@ -1,6 +1,1 @@
-# theobutters.github.io
-
-My newer portfolio.
-
-Created to showcase my public works.
-
+# figure-one.github.io
