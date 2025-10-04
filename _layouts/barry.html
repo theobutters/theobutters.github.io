@@ -481,15 +481,30 @@
             </div>
         </div>
 
-    </div>
+        <div class="post">
+            <h2>Clipping</h2>
+            
+            <div class="gallery">
+                <div class="gallery-main">
+                    <img src="\assets\Barry\clip\clip.png" alt="Clip Response" class="active">
 
-    <div class="fullscreen-overlay" onclick="closeFullscreen(event)">
-        <button class="fullscreen-close" onclick="closeFullscreen(event)">×</button>
-        <div class="fullscreen-controls">
-            <button class="fullscreen-nav-btn" onclick="changeFullscreenImage(-1)">‹</button>
-            <button class="fullscreen-nav-btn" onclick="changeFullscreenImage(1)">›</button>
+                    <button class="fullscreen-btn" onclick="openFullscreen(this)">⛶</button>
+                </div>
+            </div>
+
+            <div class="post-content">
+                <p>
+                    Barry can also clip messages in a Discord chat.
+                    This is done through the playwright.sync_api library,
+                    which allows for browser rendering of HTML.
+                    This then gets converted to an image and sent back to the chat.
+                    At the moment it only works for text messages,
+                    but I plan to add support for images and other media in the future.
+                    It's also experimental for me,
+                    I had to heavily rely on documentation and examples online to get it working.
+                </p>
+            </div>
         </div>
-        <div class="fullscreen-content"></div>
 
     </div>
 
