@@ -373,23 +373,20 @@
         <a href="/" class="back-link">← Back to Home</a>
 
         <header>
-            <h1>Barry</h1>
+            <h1>Uncategorised</h1>
         </header>
 
         <p class="description">
-            Barry is the name of a Discord chat bot that I made using discord.py.
-            As of current theres limited features, but I plan to add more in the future.
-            Here are some of the things Barry can do.
+            An assortment of smaller projects that don't fit into other categories.
         </p>
 
         <div class="post">
-            <h2>Large Language Model Responses</h2>
+            <h2>Butter Encrypter</h2>
             
             <div class="gallery">
                 <div class="gallery-main">
-                    <img src="\assets\Barry\" alt="a" class="active">
-                    <img src="\assets\Barry\" alt="b">
-                    <img src="\assets\Barry\" alt="c">
+                    <img src="\assets\Uncategorised\Butter Encrypter\Encryption.png" alt="Encryption" class="active">
+                    <img src="\assets\Uncategorised\Butter Encrypter\Decryption.png" alt="Decryption">
 
                     <div class="gallery-controls">
                         <button class="gallery-btn" onclick="changeImage(-1)">‹</button>
@@ -401,21 +398,21 @@
 
                 <div class="gallery-thumbnails">
                     <div class="thumbnail active" data-type="image" onclick="showImage(0)">
-                        <img src="\assets\Barry">
+                        <img src="\assets\Uncategorised\Butter Encrypter\Encryption.png">
                     </div>
                     <div class="thumbnail" data-type="image" onclick="showImage(1)">
-                        <img src="\assets\Barry">
-                    </div>
-                    <div class="thumbnail" data-type="image" onclick="showImage(2)">
-                        <img src="\assets\Barry">
+                        <img src="\assets\Uncategorised\Butter Encrypter\Decryption.png">
                     </div>
                 </div>
             </div>
 
             <div class="post-content">
                 <p>
-                    Using the OpenAI python library with the Navy API, Barry can respond to prompts in a Discord chat using a large language model.
-                    This can be used for a variety of things, such as generating text and answering questions.
+                    Created an encrypter and decrypter using a mix of caesar cypher and a custom character swap.
+                    When encrypting, a random key is generated and the inputted text is shifted via caesar cypher by that key.
+                    The text is then prefixed with the key so it can be used during decryption.
+                    Then, each character, including the key, is swapped with another character based on a predefined mapping.
+                    This mapping uses characters from the cyrillic, greek, and arabic scripts.
                 </p>
             </div>
         </div>
