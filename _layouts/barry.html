@@ -380,6 +380,7 @@
             Barry is the name of a Discord chat bot that I made using discord.py.
             As of current theres limited features, but I plan to add more in the future.
             Here are some of the things Barry can do.
+            The code for Barry can be found <a style="color: #999;" href="https://github.com/theobutters/Barry">here</a>.
         </p>
 
         <div class="post">
@@ -387,9 +388,9 @@
             
             <div class="gallery">
                 <div class="gallery-main">
-                    <img src="\assets\Barry\" alt="a" class="active">
-                    <img src="\assets\Barry\" alt="b">
-                    <img src="\assets\Barry\" alt="c">
+                    <img src="\assets\Barry\llm\jokes.png" alt="Joke Response" class="active">
+                    <img src="\assets\Barry\llm\maths.png" alt="Maths Response">
+                    <img src="\assets\Barry\llm\titanic.png" alt="Titanic Response">
 
                     <div class="gallery-controls">
                         <button class="gallery-btn" onclick="changeImage(-1)">‹</button>
@@ -397,17 +398,16 @@
                     </div>
                     <button class="fullscreen-btn" onclick="openFullscreen(this)">⛶</button>
                 </div>
-                
 
                 <div class="gallery-thumbnails">
                     <div class="thumbnail active" data-type="image" onclick="showImage(0)">
-                        <img src="\assets\Barry">
+                        <img src="\assets\Barry\llm\jokes.png">
                     </div>
                     <div class="thumbnail" data-type="image" onclick="showImage(1)">
-                        <img src="\assets\Barry">
+                        <img src="\assets\Barry\llm\maths.png">
                     </div>
                     <div class="thumbnail" data-type="image" onclick="showImage(2)">
-                        <img src="\assets\Barry">
+                        <img src="\assets\Barry\llm\titanic.png">
                     </div>
                 </div>
             </div>
@@ -419,6 +419,77 @@
                 </p>
             </div>
         </div>
+
+        <div class="post">
+            <h2>Commands</h2>
+            
+            <div class="gallery">
+                <div class="gallery-main">
+                    <img src="\assets\Barry\cmds\help.png" alt="Help Response" class="active">
+                    <img src="\assets\Barry\cmds\ping.png" alt="Ping Response">
+                    <img src="\assets\Barry\cmds\roast.png" alt="Roast Response">
+                    <img src="\assets\Barry\cmds\kill.png" alt="Kill Response">
+                    <img src="\assets\Barry\cmds\hug.png" alt="Hug Response">
+                    <img src="\assets\Barry\cmds\rps.png" alt="RPS Response">
+                    <img src="\assets\Barry\cmds\secret.png" alt="Secret Response">
+                    <img src="\assets\Barry\cmds\larry.png" alt="Larry Response">
+                    <img src="\assets\Barry\cmds\barry.png" alt="Barry Response">
+
+                    <div class="gallery-controls">
+                        <button class="gallery-btn" onclick="changeImage(-1)">‹</button>
+                        <button class="gallery-btn" onclick="changeImage(1)">›</button>
+                    </div>
+                    <button class="fullscreen-btn" onclick="openFullscreen(this)">⛶</button>
+                </div>
+
+                <div class="gallery-thumbnails">
+                    <div class="thumbnail active" data-type="image" onclick="showImage(0)">
+                        <img src="\assets\Barry\cmds\help.png">
+                    </div>
+                    <div class="thumbnail" data-type="image" onclick="showImage(1)">
+                        <img src="\assets\Barry\cmds\ping.png">
+                    </div>
+                    <div class="thumbnail" data-type="image" onclick="showImage(2)">
+                        <img src="\assets\Barry\cmds\roast.png">
+                    </div>
+                    <div class="thumbnail" data-type="image" onclick="showImage(3)">
+                        <img src="\assets\Barry\cmds\kill.png">
+                    </div>
+                    <div class="thumbnail" data-type="image" onclick="showImage(4)">
+                        <img src="\assets\Barry\cmds\hug.png">
+                    </div>
+                    <div class="thumbnail" data-type="image" onclick="showImage(5)">
+                        <img src="\assets\Barry\cmds\rps.png">
+                    </div>
+                    <div class="thumbnail" data-type="image" onclick="showImage(6)">
+                        <img src="\assets\Barry\cmds\secret.png">
+                    </div>
+                    <div class="thumbnail" data-type="image" onclick="showImage(7)">
+                        <img src="\assets\Barry\cmds\larry.png">
+                    </div>
+                    <div class="thumbnail" data-type="image" onclick="showImage(8)">
+                        <img src="\assets\Barry\cmds\barry.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-content">
+                <p>
+                    Here are some of the commands that Barry can respond to in Discord.
+                    Responses are prewritten for now.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="fullscreen-overlay" onclick="closeFullscreen(event)">
+        <button class="fullscreen-close" onclick="closeFullscreen(event)">×</button>
+        <div class="fullscreen-controls">
+            <button class="fullscreen-nav-btn" onclick="changeFullscreenImage(-1)">‹</button>
+            <button class="fullscreen-nav-btn" onclick="changeFullscreenImage(1)">›</button>
+        </div>
+        <div class="fullscreen-content"></div>
 
     </div>
 
